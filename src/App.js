@@ -27,7 +27,7 @@ function App() {
     <Fragment>
       <Header titulo="Cotizador de prestamos" />
       <div className="container">
-        <Formulario guardarCargando={guardarCargando} cantidad={cantidad} guardarCantidad={guardarCantidad} plazo={plazo} guardarPlazo={guardarPlazo} total={total} guardarTotal={guardarTotal}/>
+        <Formulario guardarCargando={guardarCargando} cantidad={cantidad} guardarCantidad={guardarCantidad} plazo={plazo} guardarPlazo={guardarPlazo} guardarTotal={guardarTotal}/>
 
         <div className="mensajes">
           {component}

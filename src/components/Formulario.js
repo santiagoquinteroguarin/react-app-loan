@@ -6,7 +6,7 @@ const Formulario = (props) => {
     // Definir state local
     const [error, guardarError] = useState(false);
 
-    const { guardarCantidad, cantidad, plazo, guardarPlazo, total, guardarTotal, guardarCargando } = props;
+    const { guardarCantidad, cantidad, plazo, guardarPlazo, guardarTotal, guardarCargando } = props;
 
     const calcularPrestamo = (e) => {
         e.preventDefault();
